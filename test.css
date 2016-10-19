@@ -1,0 +1,72 @@
+body {
+  background: rgba(19,19,19,1);
+}
+
+#content {
+  background: transparent;
+  width: 700px;
+  height: 500px;
+  margin: 40px auto;
+  position: relative;
+  text-align: center;
+}
+
+#startArea {
+  background: transparent;
+  width: 400px;
+  height: 100px;
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+
+.startAreaGrid {
+  width: 14px;
+  height: 14px;
+  background: rgba(256,256,256,0.8);
+  z-index: 1;
+  margin: 3px auto;
+  display: inline-block;
+  border-radius: 3px;
+  border: 8px solid rgba(19,19,19,1);
+  padding: 0px;
+  z-index: 1;
+}
+
+#boxes {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  background: rgba(256,256,256,1);
+  z-index: 2;
+  margin: 3px auto;
+  display: inline-block;
+}
+
+#gridsquares {
+  background: transparent;
+  width: 100%;
+  height: 400px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.grid {
+  width: 30px;
+  height: 30px;
+  background: rgba(256,256,256,0.3);
+  position: relative;
+  margin: 3px auto;
+}
